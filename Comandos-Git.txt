@@ -1,0 +1,53 @@
+Comandos - Git
+
+ao escrever um comando e apertar tab aparece alguns possiveis comandos
+ls - lista o que tem na pasta;
+ls -a - arquivos ocultos;
+cd - change directory, muda a pasta;
+cd .. - volta a pasta anterior;
+cd ../outra pasta - sai da que ta e entra na outra;
+rm - exclui arquivo;
+rmdir - exclui pasta;
+touch - cria novo arquivo;
+mkdir - cria nova pasta;
+mv nome antigo + nome novo - Na mesma pasta ele altera o nome do arquivo
+nano + nome do arquivo - edita o texto do arquivo; Usa o Ctrl mais as letras
+cat + nome do arquivo - mostra o texto do arquivo;
+clear - limpa as linhas;
+:q- para sair;
+rm -rf - apaga uma pasta;
+
+git --version - versão do git para saber se está instalado;
+git status - diz informações antes do commit;
+git add + nome do arquivo - vai adiciona-lo ao stage/palco;
+git add . - adiciona todos no stage;
+git add . && git commit -m ""- junta as duas funções pelo &&
+git rm --cached + nome do arquivo - tira do stage;
+git commit -m "" - dentro das aspas adicionar o titulo do commit;
+git commit -m "" --author="Nome <email@mail.com>" - quando você quer commitar e adicionar nome e email do autor;
+git commit - quando corrige um conflito e commita;
+git log - puxa um histórico;
+git log --oneline - faz um resumo do histórico;
+git checkout +ID do commit - abre aquele ponto;
+git checkout main - volta para a versão mais recente;
+git checkout -b +nome - cria uma nova branch e abre ela;
+git revert + ID commit - revertendo as alterações e voltando a esse commit;
+git reset + ID commit - volta no tempo, mas deixa coisas do "futuro";
+git reset + ID commit --hard - apaga as alterações posteriores a versão;
+touch .gitignore - cria a pasta para o git parar de rastrear;
+git init - comando para criar o repositorio;
+git branch - puxa a lista de branch
+git branch nome - cria uma nova branch;
+git branch -d nome - exclui a branch;
+git merge + branch que você quer adicionar - Vai no branch de destino e adicona essa linha;
+git remote add origin git@github... - adiciona um apelido ao projeto para dar push no github;
+git remote -v - para verificar os apelidos;
+git push + apelido + branch - dar o push no github(origin - por padrão);
+git clone + link + apelido(opicional) - clonar um repositorio do github para a máquina, podendo dar um nome diferente se quiser;
+git pull +apelido +branch - dar o pull no github;
+git rebase --onto - muda a base da main para gerar novos commit a partir desse ponto
+git rebase <BRANCH> - abre para as oções (--continue, --abort, --quit, --aply, --skip, --merge ...)
+git diff <commit1> <commit2> - vai commitar entre esses dois commits (também é possivel usar com branch)
+
+
+git add . && git commit -m "" && git push origin main - Função perfeita
