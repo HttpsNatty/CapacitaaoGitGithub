@@ -1,2 +1,2 @@
 Oi Trainees! Aqui vocês podem conferir os arquivos utilizados na capacitação!
-Isa, por favor adicione os slides aqui e retire essa frase quando adicionar!
+https://www.canva.com/design/DAFTbTMRtu8/iqtlkl4H64mBKXBBpsY3WA/view#4
